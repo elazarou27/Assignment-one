@@ -1,0 +1,245 @@
+/* heading to define the margin */
+h1 {
+    margin: 0;
+}
+
+/* header id to define the background color as red and the text color as white */
+#header {
+    background-color: #BE1622;
+    color: white;
+}
+
+/* class for specific titles to define their color on the home page */
+.header-headings {
+    color: #F2BE1A;
+}
+
+/* id of the logo to put width and height */
+#logo {
+    width: 250px;
+    height: 100px;
+}
+
+/* class of the video to adjust it in the home page */
+.video {
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* id of the heading to adjust the Student shop title in the home page */
+#heading {
+    position: relative;
+    bottom: 50px;
+    margin-left: 280px;
+    display: flex;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-align: right;
+    padding: 5px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0px;
+    position: absolute;
+    right: 10px;
+    top: 0px
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+/* styling for lines created for the navigation */
+.line {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #34516C;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .nav-menu {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #34516C;
+        width: 100%;
+        border-radius: 10px;
+        text-align: right;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+
+}
+
+        .hamburger.active .line:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .line:nth-child(1) {
+            transform: translateY(8px) rotate(45deg);
+        }
+
+        .hamburger.active.line:nth-child(3) {
+            transform: translateY(-8px) rotate(-45deg);
+        }
+
+
+
+    #hamburger {
+        position: absolute;
+        right: 10px;
+        top: 14px;
+        z-index: 999;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        visibility: hidden;
+    }
+
+#allProducts {
+    text-decoration: none;
+    color: #34516C;
+}
+
+#onlyHoodies {
+    text-decoration: none;
+    color: #34516C;
+}
+
+#onlyJumpers {
+    text-decoration: none;
+    color: #34516C;
+}
+
+#onlyTshirts {
+    text-decoration: none;
+    color: #34516C;
+}
+
+/* styling for the footer */
+footer {
+    background-color: #34516C;
+}
+
+.footerinfo {
+    list-style-type: none;
+    color: white;
+}
+
+footer li {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer li a {
+    color: white;
+}
+
+#footer-right {
+    text-align: right;
+}
+
+#footer-center {
+    text-align: center;
+}
+
+#footer-left {
+    text-align: left;
+}
+
+/* class for the paragraph on the home page */
+.welcome {
+    text-align: center;
+}
+
+/* styling for the products images */
+img {
+    width: 75%;
+    padding: 10px;
+    display: grid;
+}
+
+/* styling for the products */
+#products {
+    display: block;
+}
+
+#products h3 {
+    color: #34516C;
+}
+
+#products color {
+    color: #34516C;
+    font-weight: bold;
+}
+
+#products description {
+    color: #34516C;
+}
+
+#products price {
+    color: #34516C;
+    font-weight: bold;
+}
+
+/* styling for the grid */
+.grid {
+    display: grid;
+    grid-template-columns: 3em;
+    background-color: lightgray;
+}
+
+/* styling for the div of a whole item */
+.productDiv {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    border: 1px solid grey;
+
+}
+
+/* styling for the buy button to seem clickable */
+#buyButtonId {
+    cursor: pointer;
+}
+
+/* styling for the table */
+table, th {
+    border: 1px solid;
+    padding: 5px;
+}

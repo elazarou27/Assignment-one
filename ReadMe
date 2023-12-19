@@ -1,0 +1,78 @@
+Name: Eirini Lazarou
+Link: vesta.uclan.ac.uk/~elazarou/Assignment1/Lazarou-Eirini_G21059415_Assignment-one
+
+Description of each file:
+index.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+Other titles, small paragraphs and videos of uclan.
+The hamburger menu is shown and responsive but not working when clicked.
+The footer is shown with the info of Links, Contact and Location.
+
+products.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+The href of the products, hoodies, jumpers and tshirts are working in order to watch separately each category if clicked.
+All items are shown.
+Each item has its own grid with its info.
+The Read More attribute is created.
+The Buy button is created.
+The footer is shown with the info of Links, Contact and Location.
+
+hoodies.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+The href of the products, hoodies, jumpers and tshirts are working in order to watch separately each category if clicked.
+Only hoodies are shown.
+Each item has its own grid with its info.
+The Read More attribute is created.
+The Buy button is created.
+The footer is shown with the info of Links, Contact and Location.
+
+jumpers.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+The href of the products, hoodies, jumpers and tshirts are working in order to watch separately each category if clicked.
+Only jumpers are shown.
+Each item has its own grid with its info.
+The Read More attribute is created.
+The Buy button is created.
+The footer is shown with the info of Links, Contact and Location.
+
+tshirts.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+The href of the products, hoodies, jumpers and tshirts are working in order to watch separately each category if clicked.
+Only tshirts are shown.
+Each item has its own grid with its info.
+The Read More attribute is created.
+The Buy button is created.
+The footer is shown with the info of Links, Contact and Location.
+
+cart.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+The table is created and shows titles of item, product, number of items and price but nothing is inserted in it when the buy button is clicked.
+The footer is shown with the info of Links, Contact and Location.
+
+item.html:
+The header is shown with the Home, Products and Cart. The logo of Uclan university. The title of the shop.
+The hamburger menu is shown and responsive but not working when clicked.
+It doesn't show the single separated item that is clicked with Read More attribute.
+The footer is shown with the info of Links, Contact and Location.
+
+array.js:
+The javascript file where all the implementations are happening.
+Create the array for the goods.
+Create the function where the items are pushed in the innerHtml.
+
+hoodies.js:
+The javascript file that is linked with hoodies.html where all the implementations are happening to show only the hoodies.
+
+jumpers.js:
+The javascript file that is linked with jumpers.html where all the implementations are happening to show only the jumpers.
+
+tshirts.js:
+The javascript file that is linked with tshirts.html where all the implementations are happening to show only the tshirts.
+
+stylesheet.css:
+The stylesheet file that is created in order to style each element.

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- insert the title of the page and link the stylesheet and the script-->
+    <meta charset="UTF-8">
+    <title>Hoodies Page</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+    <script type="text/javascript" src="hoodies.js"> </script>
+</head>
+<!-- create the header that includes the Uclan logo, the heading of the student shop, the menu and the hamburger-->
+<header id="header">
+    <img id="logo" src="UCLan_Cyprus_logo.png" alt="Uclan logo"/>
+    <h1 id="heading"> Student Shop </h1>
+    <nav class="navbar">
+        <ul class="nav-menu">
+            <li class="nav-item"> <a href="index.html"> Home </a> </li>
+            <li class="nav-item"> <a href="products.html" > Products </a> </li>
+            <li class="nav-item"> <a href="cart.html" > Cart </a> </li>
+        </ul>
+        <div class="hamburger">
+            <span class="line"> </span>
+            <span class="line"> </span>
+            <span class="line"> </span>
+        </div>
+    </nav>
+
+</header>
+<!-- inserted the function that created to push the products and show only the hoodies if hoodies attribute is tapped. It also includes the links to visit hoodies, jumpers or t-shirts separately.-->
+<body onload="demo()">
+<a id="allProducts" href="products.html"> Products </a>
+<a id="onlyHoodies" href="hoodies.html"> > Hoodies </a>
+<a id="onlyJumpers" href="jumpers.html"> > Jumpers </a>
+<a id="onlyTshirts" href="tshirts.html"> > T-shirts</a>
+<div class="grid" id="products">
+    <div id="products h3"> </div>
+    <div id="products color"></div>
+</div>
+
+</body>
+<!-- create the footer that includes link, contact and location info-->
+<footer>
+    <ul class="footerinfo">
+        <li> <h3> Links </h3> <a href="https://www.uclansu.co.uk/" > Student Union </a> </li>
+        <li> <h3> Contact </h3> <p> Email: suinformation@uclan.ac.uk<br>Phone: 01772 89 3000</p> </li>
+        <li> <h3> Location </h3> <p> University of Central Lancashire Students' Union. <br> Fylde Road, Preston. PR1 7BY <br> Registered in England <br> Company Number: 7623917 <br> Registered Charity Number: 1142616</p> </li>
+    </ul>
+</footer>
+
+</html>
